@@ -54,7 +54,7 @@ def generate_launch_description():
               'OdomF2M/BundleAdjustment': 'false'
             }],
             remappings=[
-              ('scan_cloud', '/merged_cloud')
+              ('scan_cloud', '/VLP16_lidar_front/points')
             ]),
        
         Node(
